@@ -1,5 +1,4 @@
 vim.o.shellslash = true
-vim.g['aniseed#env'] = true
 local execute = vim.api.nvim_command
 local fn = vim.fn
 local install_path = fn.stdpath('data')..'/site/pack/paqs/opt/paq-nvim'
@@ -10,11 +9,8 @@ end
 execute 'packadd paq-nvim'
 
 local paq = require'paq'.paq
-paq 'Olical/aniseed'
 paq 'savq/paq-nvim'
 
 require "paq" {
-    "morhetz/gruvbox";
-    "Olical/aniseed";
     "savq/paq-nvim";
 }
