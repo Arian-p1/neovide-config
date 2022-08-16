@@ -9,6 +9,6 @@ let g:neovide_cursor_trail_length=0.8
 let g:neovide_cursor_vfx_mode = "ripple"
 let g:neovide_cursor_vfx_particle_lifetime=1.2
 let g:neovide_cursor_vfx_particle_density=7.0
-set guifont=Hasklig:h14
+set guifont=Hasklig\ Medium:h12
 
 let g:lightline={ 'enable': {'statusline': 1, 'tabline': 0} }
